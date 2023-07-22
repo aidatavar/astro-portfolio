@@ -1,0 +1,193 @@
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="../images/about-image.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-7">
+                        <h1 class="title">About Me</h1>
+                        <p class="title">WEB DEVELOPER</p>
+                        <p class="py-3">Lorem <span class="font-weight-bold">Aida Tavarez</span> ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta eos dignissimos quas odit commodi rem libero nobis corrupti impedit?</p>
+
+                        <div class="progress my-3">
+                            <div class="pro-value1">
+                                <p>HTML / CSS <span class="text-white float-right">95%</span></p>
+                            </div>
+                        </div>
+
+                        <div class="progress my-3">
+                            <div class="pro-value2">
+                                <p>JAVASCRIPT<span class="text-white float-right">85%</span></p>
+                            </div>
+                        </div>
+
+                        <div class="progress my-3">
+                            <div class="pro-value3">
+                                <p>BOOTSTRAP <span class="text-white float-right">80%</span></p>
+                            </div>
+                        </div>
+
+                        <div class="progress my-3">
+                            <div class="pro-value4">
+                                <p>MYSQL<span class="text-white float-right">30%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-3">
+                            <div class="pro-value5">
+                                <p>GIT<span class="text-white float-right">98%</span></p>
+                            </div>
+                        </div>
+
+                        <input type="button" class="btn1 mt-5" value="Download C.V">
+                        <input type="button" class="btn2 mt-5" value="Contact Me">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            /* ABOUT SECTION */
+
+.about img{
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    background-color: rgb(223, 218, 218);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 45px;
+    width: 100%;
+
+    -webkit-box-shadow: inset 3px 7px 28px 4px rgba(0,0,0,0.28);
+    -moz-box-shadow: inset 3px 7px 28px 4px rgba(0,0,0,0.28);
+    box-shadow: inset 3px 7px 28px 4px rgba(0,0,0,0.28);
+
+}
+
+.pro-value1  {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    height: 25px;
+    width: 0;
+}
+.pro-value2  {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    height: 25px;
+    width: 0;
+}
+.pro-value3  {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    height: 25px;
+    width: 0;
+}
+.pro-value4  {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    height: 25px;
+    width: 0;
+}
+.pro-value5  {
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: var(--primary-color);
+    padding: 6px;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 99%;
+    }
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    transition: 0.5s;
+}
+
+        </style>
